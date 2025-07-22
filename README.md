@@ -31,4 +31,3 @@ Visit [https://aptakube.com](https://aptakube.com?utm_campaign=github_readme) to
 
 - ❤️ Love Aptakube? 
 - ⭐️ Write a [Review](https://love.aptakube.com/r/ASb0RG)
-- 💰 Become an [Affiliate](https://aptakube.com/affiliates)
