@@ -10,3 +10,8 @@ jobs:
         uses: SethCohen/github-releases-to-discord@master
         with:
           webhook_url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+      - name: Release Version to Vercel
+        env:
+          VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: curl --fail --silent --show-error --output /dev/null --request POST "$VERCEL_DEPLOY_HOOK_URL"
